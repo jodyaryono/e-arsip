@@ -4,15 +4,11 @@
 <head>
 
     <?php $this->load->view("admin/komponen/header.php") ?>
-
     <title>Sistem Arsip</title>
-
-
 
     <!-- Custom styles for this template-->
     <link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
     <!--  -->
-
 </head>
 
 <body id="page-top">

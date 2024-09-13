@@ -1,7 +1,7 @@
 <?php
 
-// @set_magic_quotes_runtime(false);
-// ini_set('magic_quotes_runtime', 0);
+//@set_magic_quotes_runtime(false);
+ini_set('magic_quotes_runtime', 0);
 /**
  * CodeIgniter
  *
@@ -69,6 +69,7 @@ define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'developm
 switch (ENVIRONMENT) {
 	case 'development':
 		error_reporting(-1);
+		error_reporting(~E_DEPRECATED);
 		ini_set('display_errors', 1);
 		break;
 

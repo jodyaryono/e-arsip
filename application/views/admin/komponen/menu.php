@@ -18,9 +18,19 @@
 
  <!-- Nav Item - Pages Collapse Menu -->
  <li class="nav-item">
-     <a class="nav-link" href="<?php echo base_url(); ?>kategori"">
-          <i class=" fas fa-fw fa-cog"></i>
+     <a class="nav-link" href="<?php echo base_url(); ?>kategori">
+         <i class=" fas fa-fw fa-cog"></i>
          <span>Kategori</span></a>
+ </li>
+ <li class="nav-item">
+     <a class="nav-link" href="<?php echo base_url(); ?>jenis_arsip">
+         <i class=" fas fa-fw fa-envelope"></i>
+         <span>Jenis Arsip</span></a>
+ </li>
+ <li class="nav-item">
+     <a class="nav-link" href="<?php echo base_url(); ?>users">
+         <i class=" fas fa-fw fa-users"></i>
+         <span>Users</span></a>
  </li>
  <li class="nav-item">
      <a class="nav-link" href="<?php echo base_url(); ?>arsip">

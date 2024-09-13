@@ -13,9 +13,7 @@ class Arsip extends CI_Controller {
 	{
 
 		$d['arsip'] = $this->Arsip_model->tampil();
-
 		$this->load->view('arsip/home',$d);
-		
 
 	}
 
